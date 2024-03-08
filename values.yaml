@@ -1,0 +1,8 @@
+ingress:
+  enabled: true
+  className: traefik
+  hosts:
+    - host: openfga.35.229.65.41.nip.io
+      paths:
+        - path: /
+          pathType: ImplementationSpecific

@@ -1,0 +1,17 @@
+{
+  "packages": [
+    "bat@0.24.0",
+    "kind@0.22.0",
+    "kubectl@1.29.2",
+    "kubernetes-helm@3.14.1",
+    "path:gcloud#google-cloud-sdk",
+    "yq-go@4.42.1",
+    "jq@1.7.1"
+  ],
+  "shell": {
+    "init_hook": [
+      "alias cat='bat --paging never --theme DarkNeon --style plain'"
+    ],
+    "scripts": {}
+  }
+}
